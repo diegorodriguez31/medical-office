@@ -1,0 +1,114 @@
+input[type=text], input[type=date], input[type=time], input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-color: FD6B2B;
+  border-width: 2px;
+}
+
+::placeholder{
+  color:black;
+}
+
+input[type=radio]{
+
+  margin-right: 0.625rem;
+  border: 0.5rem solid ;
+  border-radius: 50%;
+  transition: all 0.25s linear;
+}
+
+input[type=radio]::checked+label{
+  font-weight: bold;
+}
+
+input[type=radio]:hover{
+    background-color: red;
+}
+
+input[type=reset]{
+  width:20%;  
+  background-color: pink;
+  margin-left: 40%;
+  border-radius:10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top:0px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #235B79;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #4B98C1;
+}
+
+input[type=button] {
+  width: 100%;
+  background-color: #235B79;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top:40px;
+  width: 30%;
+  margin-left:35%;
+}
+
+
+input[type=button]:hover {
+  background-color: #4B98C1;
+}
+
+
+form{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  text-align: center;
+  font-family: monospace;
+}
+
+input, select{
+  background-color:7AC3EA;
+}
+
+table {
+  border-collapse:collapse;
+  width: 50%;
+  height:50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: 7AC3EA;
+}
+
+td {
+  border: 3px solid #333333;padding: 2px 5px 2px 5px;text-align:center;
+}
+
+.titre {
+  font-weight: bold;
+}
+
+a:link{
+  text-decoration: none;
+  font-weight: 700;
+}
